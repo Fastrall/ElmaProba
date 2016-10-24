@@ -11,6 +11,17 @@ namespace Calc
         double Sum(double x, double y);
 
         double? Divide(double x, double y);
+
+        double Differ(double x, double y);
+
+        double Multiple(double x, double y);
+
+        double Stepen(double x, double y);
+
+        double Koren(double x, double y);
+
+        double Ostatok(double x, double y);
+
     }
 
     public class Calculator : ICalculator

@@ -27,5 +27,44 @@ namespace CalcTest
             Assert.IsNull(calc.Divide(6, 0));
         }
 
+        [TestMethod]
+        public void TestDiffer()
+        {
+            var calc = new Calculator();
+
+            Assert.IsTrue(calc.Differ(2, 3) == -1);
+        }
+
+        [TestMethod]
+        public void TestMultiple()
+        {
+            var calc = new Calculator();
+
+            Assert.IsTrue(calc.Multiple(2, 3) == 6);
+        }
+
+        [TestMethod]
+        public void TestStepen()
+        {
+            var calc = new Calculator();
+
+            Assert.IsTrue(calc.Stepen(2, 3) == 8);
+        }
+
+        [TestMethod]
+        public void TestKoren()
+        {
+            var calc = new Calculator();
+
+            Assert.IsTrue(calc.Koren(8, 3) == 2);
+        }
+
+        [TestMethod]
+        public void TestOstatok()
+        {
+            var calc = new Calculator();
+
+            Assert.IsTrue(calc.Ostatok(2, 3) == 2);
+        }
     }
 }
