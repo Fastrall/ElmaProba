@@ -8,19 +8,19 @@ namespace Calc
 {
     public interface ICalculator
     {
-        int Sum(int x, int y);
+        double Sum(double x, double y);
 
-        int? Divide(int x, int y);
+        double? Divide(double x, double y);
     }
 
     public class Calculator : ICalculator
     {
-        public int Sum(int x, int y)
+        public double Sum(double x, double y)
         {
             return x + y;
         }
 
-        public int? Divide(int x, int y)
+        public double? Divide(double x, double y)
         {
             if (y == 0)
             {
@@ -29,6 +29,7 @@ namespace Calc
 
             return x / y;
         }
+
         public double Differ(double x, double y)
         {
             return x - y;
@@ -56,7 +57,7 @@ namespace Calc
 
         public string[] Methods()
         {
-            return new[] { "Sum", "Divide", "Differ", "Multiple", "Stepen", "Koren", "Ostatok" };
+            return new[] {"Sum", "Divide", "Differ", "Multiple", "Stepen", "Koren", "Ostatok" };
         }
     }
 }

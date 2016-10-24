@@ -22,9 +22,9 @@ namespace WFCalc
         {
             var calc = new Calculator();
 
-            var x = Convert.ToInt32(tbX.Text);
+            var x = Convert.ToDouble(tbX.Text);
 
-            var y = Convert.ToInt32(tbY.Text);
+            var y = Convert.ToDouble(tbY.Text);
 
             var oper = cbOperation.SelectedItem.ToString();
 
