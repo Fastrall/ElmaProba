@@ -29,10 +29,34 @@ namespace Calc
 
             return x / y;
         }
+        public double Differ(double x, double y)
+        {
+            return x - y;
+        }
+
+        public double Multiple(double x, double y)
+        {
+            return x * y;
+        }
+
+        public double Stepen(double x, double y)
+        {
+            return Math.Pow(x, y);
+        }
+
+        public double Koren(double x, double y)
+        {
+            return Math.Pow(x, 1 / y);
+        }
+
+        public double Ostatok(double x, double y)
+        {
+            return x % y;
+        }
 
         public string[] Methods()
         {
-            return new[] {"Sum", "Divide"};
+            return new[] { "Sum", "Divide", "Differ", "Multiple", "Stepen", "Koren", "Ostatok" };
         }
     }
 }
