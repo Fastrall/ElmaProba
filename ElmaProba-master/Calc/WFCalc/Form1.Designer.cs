@@ -80,6 +80,7 @@
             "Stepen",
             "Koren",
             "Ostatok"});
+            this.cbOperation.Text = this.cbOperation.Items[0].ToString();
             this.cbOperation.Location = new System.Drawing.Point(68, 82);
             this.cbOperation.Name = "cbOperation";
             this.cbOperation.Size = new System.Drawing.Size(100, 21);
