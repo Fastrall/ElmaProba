@@ -22,6 +22,8 @@ namespace Calc
 
         double Ostatok(double x, double y);
 
+        Operation[] GetOperations();
+
     }
 
     public class Calculator : ICalculator
@@ -66,9 +68,32 @@ namespace Calc
             return x % y;
         }
 
-        public string[] Methods()
+        public Operation[] GetOperations()
         {
-            return new[] {"Sum", "Divide", "Differ", "Multiple", "Stepen", "Koren", "Ostatok" };
+            return new Operation[]
+            {
+                new Operation(){Name = "Sum", ParameterCount = 2},
+                new Operation(){Name = "Divide", ParameterCount = 2},
+                new Operation(){Name = "Differ", ParameterCount = 2},
+                new Operation(){Name = "Multiple", ParameterCount = 2},
+                new Operation(){Name = "Stepen", ParameterCount = 2},
+                new Operation(){Name = "Koren", ParameterCount = 2},
+                new Operation(){Name = "Ostatok", ParameterCount = 2},
+            };
+        }
+    }
+
+    public class Operation
+    {
+        public string Name { get; set; }
+
+        public int ParameterCount { get; set; }
+
+        public override string ToString()
+        {
+            return Name;
         }
     }
 }
+    
+
