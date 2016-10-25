@@ -83,6 +83,7 @@ namespace Calc
         }
     }
 
+    //Тестовый комент 
     public class Operation
     {
         public string Name { get; set; }
