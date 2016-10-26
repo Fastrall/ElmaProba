@@ -72,15 +72,9 @@
             // cbOperation
             // 
             this.cbOperation.FormattingEnabled = true;
-            /*            this.cbOperation.Items.AddRange(new object[] {
-                        "Sum",
-                        "Divide",
-                        "Differ",
-                        "Multiple",
-                        "Stepen",
-                        "Koren",
-                        "Ostatok"});
-                        this.cbOperation.Text = this.cbOperation.Items[0].ToString();    */
+            this.cbOperation.Items.AddRange(new object[] {
+            "Sum",
+            "Divide"});
             this.cbOperation.Location = new System.Drawing.Point(68, 82);
             this.cbOperation.Name = "cbOperation";
             this.cbOperation.Size = new System.Drawing.Size(100, 21);

@@ -5,9 +5,9 @@ using Microsoft.Owin;
 using Microsoft.Owin.Security.Cookies;
 using Microsoft.Owin.Security.Google;
 using Owin;
-using Webcalc.Models;
+using WebCalc.Models;
 
-namespace Webcalc
+namespace WebCalc
 {
     public partial class Startup
     {

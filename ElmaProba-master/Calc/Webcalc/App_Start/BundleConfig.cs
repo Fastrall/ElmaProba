@@ -1,7 +1,7 @@
 ﻿using System.Web;
 using System.Web.Optimization;
 
-namespace Webcalc
+namespace WebCalc
 {
     public class BundleConfig
     {

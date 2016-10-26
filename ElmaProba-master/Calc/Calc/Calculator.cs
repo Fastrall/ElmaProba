@@ -96,5 +96,5 @@ namespace Calc
         }
     }
 }
-    
+
 

@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.25420.1
+# Visual Studio 2013
+VisualStudioVersion = 12.0.40629.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Calc", "Calc\Calc.csproj", "{5EEACEA9-0E69-4FE3-B09D-F8B97CB712F1}"
 EndProject
@@ -9,7 +9,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalcTest", "CalcTest\CalcTe
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WFCalc", "WFCalc\WFCalc.csproj", "{32465930-BA27-4A25-929C-4CA149FD2E17}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Webcalc", "Webcalc\Webcalc.csproj", "{CCDDFF4F-4312-46EB-95E1-EAA23C12F023}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebCalc", "WebCalc\WebCalc.csproj", "{33D83531-BDDE-442E-B872-305523053C71}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -29,10 +29,10 @@ Global
 		{32465930-BA27-4A25-929C-4CA149FD2E17}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{32465930-BA27-4A25-929C-4CA149FD2E17}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{32465930-BA27-4A25-929C-4CA149FD2E17}.Release|Any CPU.Build.0 = Release|Any CPU
-		{CCDDFF4F-4312-46EB-95E1-EAA23C12F023}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{CCDDFF4F-4312-46EB-95E1-EAA23C12F023}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{CCDDFF4F-4312-46EB-95E1-EAA23C12F023}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{CCDDFF4F-4312-46EB-95E1-EAA23C12F023}.Release|Any CPU.Build.0 = Release|Any CPU
+		{33D83531-BDDE-442E-B872-305523053C71}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{33D83531-BDDE-442E-B872-305523053C71}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{33D83531-BDDE-442E-B872-305523053C71}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{33D83531-BDDE-442E-B872-305523053C71}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

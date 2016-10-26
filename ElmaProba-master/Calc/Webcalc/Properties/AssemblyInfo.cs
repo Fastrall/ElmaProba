@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // Управление общими сведениями о сборке осуществляется следующим образом
 // набора атрибутов. Измените значения этих атрибутов для изменения сведений,
 // связанных с этой сборкой.
-[assembly: AssemblyTitle("Webcalc")]
+[assembly: AssemblyTitle("WebCalc")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("Webcalc")]
+[assembly: AssemblyProduct("WebCalc")]
 [assembly: AssemblyCopyright("© , 2016")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // Следующий GUID служит для ID библиотеки типов typelib, если этот проект видим для COM
-[assembly: Guid("7dde31ea-2656-4f31-a108-db9fda7b305d")]
+[assembly: Guid("61e2a743-9d12-4375-a2e9-1b71fa73a614")]
 
 // Сведения о версии сборки состоят из указанных ниже четырех значений:
 //

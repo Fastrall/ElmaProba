@@ -4,7 +4,7 @@ using System.Linq;
 using System.Web;
 using System.Web.Mvc;
 
-namespace Webcalc.Controllers
+namespace WebCalc.Controllers
 {
     public class HomeController : Controller
     {
@@ -15,7 +15,7 @@ namespace Webcalc.Controllers
 
         public ActionResult About()
         {
-            ViewBag.Message = "Your application description page.";
+            ViewBag.Message = "Your application description page 123.";
 
             return View();
         }

@@ -1,8 +1,8 @@
 ﻿using Microsoft.Owin;
 using Owin;
 
-[assembly: OwinStartupAttribute(typeof(Webcalc.Startup))]
-namespace Webcalc
+[assembly: OwinStartupAttribute(typeof(WebCalc.Startup))]
+namespace WebCalc
 {
     public partial class Startup
     {

@@ -8,9 +8,9 @@ using System.Web.Mvc;
 using Microsoft.AspNet.Identity;
 using Microsoft.AspNet.Identity.Owin;
 using Microsoft.Owin.Security;
-using Webcalc.Models;
+using WebCalc.Models;
 
-namespace Webcalc.Controllers
+namespace WebCalc.Controllers
 {
     [Authorize]
     public class AccountController : Controller

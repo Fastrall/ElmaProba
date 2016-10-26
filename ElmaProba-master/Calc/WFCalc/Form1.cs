@@ -9,7 +9,6 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using Calc;
 
-
 namespace WFCalc
 {
     public partial class Form1 : Form
@@ -28,29 +27,33 @@ namespace WFCalc
         private void btnCalc_Click(object sender, EventArgs e)
         {
             var oper = cbOperation.SelectedItem as Operation;
-
-            if (oper == null) {return;}
+            if (oper == null)
+            {
+                return;
+            }
 
             var method = typeof(Calculator).GetMethod(oper.Name);
-
             if (method == null)
             {
                 lblResult.Text = "method not found";
                 return;
             }
+            
+            var x = Convert.ToInt32(tbX.Text);
 
-            var x = Convert.ToDouble(tbX.Text);
+            var y = Convert.ToInt32(tbY.Text);
 
-            var y = Convert.ToDouble(tbY.Text);
+            var args = new object[] {x, y};
 
-            var args = new object[] { x, y };
-
-            if (oper.ParameterCount == 1) { args = new object[] { x };}
-
+            if (oper.ParameterCount == 1)
+            {
+                args = new object[] {x};
+            }
             object result;
-
-            try { result = method.Invoke(calc, args);}
-
+            try
+            {
+                result = method.Invoke(calc, args);
+            }
             catch (Exception ex)
             {
                 lblResult.Text = ex.Message;

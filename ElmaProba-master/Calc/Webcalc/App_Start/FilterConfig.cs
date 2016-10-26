@@ -1,7 +1,7 @@
 ﻿using System.Web;
 using System.Web.Mvc;
 
-namespace Webcalc
+namespace WebCalc
 {
     public class FilterConfig
     {
